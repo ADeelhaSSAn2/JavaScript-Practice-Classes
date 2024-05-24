@@ -40,3 +40,51 @@ return true
     return v.name === "adeel"
   })
 console.log(newAbc)
+
+// concat
+
+let uu = [{name: "adeel"},{name: "fahad"},{name: "adeel"}];
+// 2 array ko apas mein merage krdega miladega
+console.log(uu.concat([{name: "zohaib"}]));
+
+
+// reduce
+let product = [
+  {name: "mobile", price:100},
+  {name: "tab", price:200},
+  {name: "book", price:300},
+]
+product.reduce(function(a , v , i , arr){
+  console.log()
+  return a + v.price
+},0)
+console.log(product)
+
+
+// function adeel(a,b){
+// return a * b
+// }
+// console.log(adeel(5,10))
+
+// let adeel = (a,b) =>{
+//   return a * b
+// }
+// console.log(adeel(5,10))
+
+
+let adeel = (a,b) => a * b
+console.log(adeel(5,10))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
